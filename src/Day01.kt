@@ -4,8 +4,7 @@ fun main() {
     }
 
     fun part2(input: List<String>) = input.sumOf { line ->
-        val processed = "${line.digitFromLeft()}${line.digitFromRight()}".toInt()
-        processed
+        "${line.digitFromLeft()}${line.digitFromRight()}".toInt()
     }
 
     // test if implementation meets criteria from the description, like:
