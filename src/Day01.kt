@@ -7,7 +7,6 @@ fun main() {
         "${line.digitFromLeft()}${line.digitFromRight()}".toInt()
     }
 
-    // test if implementation meets criteria from the description, like:
     val testInput = readInput("Day01_test")
     check(part1(testInput) == 142)
     val testInput2 = readInput("Day01_test2")
